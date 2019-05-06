@@ -361,6 +361,4 @@ CONFIG_OPENSSL_WITH_SSL3=y
 CONFIG_PACKAGE_haveged=y
 
 # New packages
-CONFIG_PACKAGE_python3-pyroute2=n
-CONFIG_PACKAGE_python-chardet=y
-CONFIG_PACKAGE_python3-chardet=y
+CONFIG_PACKAGE_python3-pyroute2=y
