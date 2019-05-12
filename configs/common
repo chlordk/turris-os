@@ -363,3 +363,4 @@ CONFIG_PACKAGE_haveged=y
 # New packages
 CONFIG_PACKAGE_dev-detect=n
 CONFIG_PACKAGE_python-certifi=y
+CONFIG_PACKAGE_python-urllib3=y
