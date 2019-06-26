@@ -354,3 +354,4 @@ CONFIG_PACKAGE_haveged=y
 
 # New packages
 CONFIG_PACKAGE_dev-detect=y
+CONFIG_PACKAGE_ltemetr-core=y
