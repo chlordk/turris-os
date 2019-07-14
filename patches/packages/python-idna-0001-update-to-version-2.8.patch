@@ -1,0 +1,38 @@
+From 02a3728c58648ac571210cb97bce55557824dadf Mon Sep 17 00:00:00 2001
+From: Josef Schlehofer <josef.schlehofer@nic.cz>
+Date: Sun, 14 Jul 2019 10:25:14 +0200
+Subject: [PATCH] python-idna: update to version 2.8
+
+---
+ lang/python-idna/Makefile | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/lang/python-idna/Makefile b/lang/python-idna/Makefile
+index d95409668..30090436c 100644
+--- a/lang/python-idna/Makefile
++++ b/lang/python-idna/Makefile
+@@ -8,18 +8,18 @@
+ include $(TOPDIR)/rules.mk
+ 
+ PKG_NAME:=idna
+-PKG_VERSION:=2.1
++PKG_VERSION:=2.8
+ PKG_RELEASE:=1
+ 
+ PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+ PKG_SOURCE_URL:=https://pypi.python.org/packages/source/i/idna
+-PKG_MD5SUM:=f6473caa9c5e0cc1ad3fd5d04c3c114b
++PKG_HASH:=c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407
+ 
+ PKG_BUILD_DEPENDS:=python python-setuptools
+ 
++PKG_MAINTAINER:=Jeffery To <jeffery.to@gmail.com>
+ PKG_LICENSE:=BSD-3-Clause
+ PKG_LICENSE_FILES:=LICENSE.rst
+-PKG_MAINTAINER:=Jeffery To <jeffery.to@gmail.com>
+ 
+ include $(INCLUDE_DIR)/package.mk
+ $(call include_mk, python-package.mk)
+-- 
+2.20.1
+
