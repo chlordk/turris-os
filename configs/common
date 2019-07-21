@@ -352,5 +352,8 @@ CONFIG_BUSYBOX_CONFIG_USE_BB_CRYPT_SHA=y
 CONFIG_OPENSSL_WITH_SSL3=y
 CONFIG_PACKAGE_haveged=y
 
+# My dev branch
+CONFIG_PACKAGE_netdata=y
+
 # New packages
 CONFIG_PACKAGE_ltemetr-core=y
