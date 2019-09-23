@@ -1,0 +1,38 @@
+From 15e8c8cf3304b379f2e43761152a706634ae2493 Mon Sep 17 00:00:00 2001
+From: Josef Schlehofer <pepe.schlehofer@gmail.com>
+Date: Mon, 23 Sep 2019 14:05:27 +0200
+Subject: [PATCH] python-pyopenssl: Update to version 19.0.0
+
+---
+ lang/python-pyopenssl/Makefile | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/lang/python-pyopenssl/Makefile b/lang/python-pyopenssl/Makefile
+index f9957218c..9d255769d 100644
+--- a/lang/python-pyopenssl/Makefile
++++ b/lang/python-pyopenssl/Makefile
+@@ -8,18 +8,18 @@
+ include $(TOPDIR)/rules.mk
+ 
+ PKG_NAME:=pyOpenSSL
+-PKG_VERSION:=16.0.0
++PKG_VERSION:=19.0.0
+ PKG_RELEASE:=1
+ 
+ PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+ PKG_SOURCE_URL:=https://pypi.python.org/packages/source/p/pyOpenSSL
+-PKG_MD5SUM:=9587d813dcf656e9f2760e41a3682dc3
++PKG_MD5SUM:=aeca66338f6de19d1aa46ed634c3b9ae519a64b458f8468aec688e7e3c20f200
+ 
+ PKG_BUILD_DEPENDS:=python python-setuptools
+ 
++PKG_MAINTAINER:=Jeffery To <jeffery.to@gmail.com>
+ PKG_LICENSE:=Apache-2.0
+ PKG_LICENSE_FILES:=LICENSE
+-PKG_MAINTAINER:=Jeffery To <jeffery.to@gmail.com>
+ 
+ include $(INCLUDE_DIR)/package.mk
+ $(call include_mk, python-package.mk)
+-- 
+2.20.1
+
